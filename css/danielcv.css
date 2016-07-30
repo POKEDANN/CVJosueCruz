@@ -1,0 +1,18 @@
+/*Estilos Generales*/
+.body{    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+/*estilos carrusel*/
+.imgSlider{height: 698.182px;}
+.danielTitle{font-size: 4.5em;margin-bottom: 0;}
+.webParag{font-size: 2em; margin-bottom: 5px; padding: 0 8px; letter-spacing: 0.1em; line-height: 3em; text-transform: uppercase; }
+.itgamEgres{height: 100% !important; width: 100%;padding: 60px;}
+.itgamEsc{height: 100% !important; width: 100%;}
+.atTop{top: 100px; bottom: auto;}
+.itgamTitle{font-size: 3.5em;color: #27416b;}
+.fa{font-size: 40px !important; color: white;margin-left: 15px;}
+.fa:hover{color: #00c0ff;}
+.contactBtn{background-color: #00c0ff; border: none; margin-top: 20px; padding: 5px 20px; font-size: 20px;margin-left: 15px;}
+
+/*estilos del perfil*/
+.danielPhoto{border: 0; width: 225px; height: 229px; margin: 0 20px 20px 0; border-radius: 50%;}
+.style-two {border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
