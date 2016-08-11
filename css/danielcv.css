@@ -16,3 +16,7 @@
 /*estilos del perfil*/
 .danielPhoto{border: 0; width: 225px; height: 229px; margin: 0 20px 20px 0; border-radius: 50%;}
 .style-two {border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
+.Learning{font-size: 1.5em;}
+.profile{font-size: 3em; font-weight: 700; letter-spacing: 5px;}
+.myProfile{padding: 30px 0px;}
+.profileParag{font-size: 17px;}
