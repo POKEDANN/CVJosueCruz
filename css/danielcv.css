@@ -20,3 +20,7 @@
 .profile{font-size: 3em; font-weight: 700; letter-spacing: 5px;color: #00c0ff;}
 .myProfile{padding: 30px 0px;}
 .profileParag{font-size: 17px;}
+
+/*estilos del portfolio*/
+.galleryPhoto{width: 352px;height: 210px;border: 3px solid #00c0ff;}
+.titleItem{color: #00c0ff;text-align: center;}
