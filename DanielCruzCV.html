@@ -12,6 +12,7 @@
     <link href="css/danielcv.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -158,6 +159,19 @@
   </div>
 </section>
 
+<!-- skills begins -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+          <div id="circle">
+            
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- profile begins -->
 <h2 class="text-center profile">MI PORTAFOLIOS</h2>
 <div class="container">
@@ -193,16 +207,24 @@
 <!-- To choose the value by which you want to sort add -->
 <div class="filtr-container">
     <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
-      <h4 class="titleItem">MARCAVIDAS</h4>
-       <a href="myprojects/marcavidas2/index.html"><img src="img/marcavidas.png" class="galleryPhoto">
-    </div>
-    <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
       <h4 class="titleItem">AUTOEFECTIVO</h4>
        <a href="myprojects/landingAuto/index.html"><img src="img/autoefectivo.png" class="galleryPhoto"></a>
     </div>
     <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
+      <h4 class="titleItem">MARCAVIDAS</h4>
+       <a href="myprojects/marcavidas2/index.html"><img src="img/marcavidas.png" class="galleryPhoto">
+    </div>
+    <div class="col-sm-4 filtr-item" data-category="4" data-sort="value">
+      <h4 class="titleItem">XIMENA Y ALEX</h4>
+      <a href="http://ximenayalex.com/"><img src="img/ximenayAlex.png" class="galleryPhoto"></a>
+    </div>
+    <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
       <h4 class="titleItem">EXITO INMOBILIARIO</h4>
        <a href="myprojects/exitoInmobiliario/index.html"><img src="img/ExitoInmobiliario.png" class="galleryPhoto"></a>
+    </div>
+    <div class="col-sm-4 filtr-item" data-category="3" data-sort="value">
+      <h4 class="titleItem">MAILING EXITO INMOBILIARIO</h4>
+      <a href="myprojects/mailRemarketing/MailRemarketing.html"><img src="img/mailingExito.png" class="galleryPhoto"></a>
     </div>
     <div class="col-sm-4 filtr-item" data-category="3" data-sort="value">
       <h4 class="titleItem">MAILING GRAND PARK</h4>
@@ -216,13 +238,9 @@
       <h4 class="titleItem">MENU LOMALINDA</h4>
       <a href="myprojects/lomalindaMenuAng/public/index.html"><img src="img/MenuLomalinda.png" class="galleryPhoto"></a>
     </div>
-    <div class="col-sm-4 filtr-item" data-category="3" data-sort="value">
-      <h4 class="titleItem">MAILING EXITO INMOBILIARIO</h4>
-      <a href="myprojects/mailRemarketing/MailRemarketing.html"><img src="img/mailingExito.png" class="galleryPhoto"></a>
-    </div>
-    <div class="col-sm-4 filtr-item" data-category="4" data-sort="value">
-      <h4 class="titleItem">XIMENA Y ALEX</h4>
-      <a href="http://ximenayalex.com/"><img src="img/ximenayAlex.png" class="galleryPhoto"></a>
+    <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
+      <h4 class="titleItem">NOBA</h4>
+      <a href="myprojects/Nobacombinado/index.php"><img src="img/noba.png" class="galleryPhoto"></a>
     </div>
     <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
       <h4 class="titleItem">HAUSKEEPER</h4>
@@ -239,5 +257,16 @@
     <script src="js/danielcv.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.circliful.min.js"></script>
+    <script>
+    $( document ).ready(function() {
+            $("#circle").circliful({
+            animationStep: 5,
+            foregroundBorderWidth: 5,
+            backgroundBorderWidth: 15,
+            percent: 75
+        });
+        });
+    </script>
   </body>
 </html>
