@@ -1,5 +1,5 @@
 /*Estilos Generales*/
-.body{    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+.body{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
 
 /*estilos carrusel*/
 .imgSlider{height: 698.182px;}
@@ -24,3 +24,5 @@
 /*estilos del portfolio*/
 .galleryPhoto{width: 352px;height: 210px;border: 3px solid #00c0ff;}
 .titleItem{color: #00c0ff;text-align: center;}
+.circle {stroke: #00c0ff; }
+.style-three {border: 0; border-bottom: 2px dashed #fff; background: black;}
