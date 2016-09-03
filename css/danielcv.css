@@ -27,9 +27,21 @@ a:visited{color: #ffffff;text-decoration: none;}
 .descargarPerfil{margin: 0 auto;display: block;}
 
 /*estilos del portfolio*/
-.galleryPhoto{width: 352px;height: 210px;border: 3px solid #00c0ff;}
+.img-thumbnail{border: 3px solid #00c0ff !important;}
 .titleItem{color: #00c0ff;text-align: center;}
 .circle {stroke: #00c0ff; }
 .style-three {border: 0; border-bottom: 2px dashed #fff; background: black;}
 
-/*estilos mini-carrusel y cursos*/
+/*estilos acordeon de cursos completados*/
+.panel-default>.panel-heading {color: #fff; background-color: #00c0ff; text-align: center;}
+.panel-title {font-size: 20px; }
+.itemSpace{margin-top: 15px;}
+
+
+
+
+
+
+
+
+

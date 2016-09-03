@@ -39,7 +39,4 @@ $( document ).ready(function() {
             backgroundBorderWidth: 15,
             percent: 40,
         });
-            $('.single-item').slick({
-                autoplay: true
-            });
         });
