@@ -3,6 +3,11 @@ var filterizd = $('.filtr-container').filterizr({
 });
 
 $( document ).ready(function() {
+            $(".rotate").textrotator({
+                animation: "flip",
+                separator: ",",
+            speed: 2000
+        });
             $(".test-circle").circliful({
             animationStep: 5,
             foregroundBorderWidth: 5,
