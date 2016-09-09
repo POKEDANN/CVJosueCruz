@@ -37,7 +37,6 @@ a:visited{color: #ffffff;text-decoration: none;}
 .panel-title {font-size: 20px; }
 .itemSpace{margin-top: 15px;}
 
-
 /* Timeline */
 .timeline-horizontal {list-style: none; padding: 20px; position: relative; }
 .timeline:before {top: 40px; bottom: 0; position: absolute; content: " "; width: 3px; background-color: #eeeeee; left: 50%; margin-left: -1.5px; }
@@ -91,6 +90,27 @@ a:visited{color: #ffffff;text-decoration: none;}
 @keyframes rotateWordsSecond {0% { opacity: 1; animation-timing-function: ease-in; width: 0px; } 10% { opacity: 0.3; width: 0px; } 20% { opacity: 1; width: 100%; } 27% { opacity: 0; width: 100%; } 100% { opacity: 0; } }
 
 .progress-bar {color: black; background-color: #00c0ff;}
+.normalLink{color: initial !important;}
 
-
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
 

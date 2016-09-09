@@ -2,7 +2,15 @@ var filterizd = $('.filtr-container').filterizr({
    //options object
 });
 
+$(function(){
+          $(".sentences").typed({
+            strings: ["Buen dia,", "Soy Daniel Cruz", "Estoy a tu servicio", "¿Que vamos a crear hoy?", ""],
+            typeSpeed: 0
+          });
+      });
+
 $( document ).ready(function() {
+
             $(".rotate").textrotator({
                 animation: "flip",
                 separator: ",",
