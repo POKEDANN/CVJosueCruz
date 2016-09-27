@@ -26,10 +26,10 @@ body {
     padding: 1rem 2rem;
 }
 .simplefilter li {
-    background-color: #585858;
+    background-color: #006485;
 }
 .simplefilter li.active {
-    background-color: #212121;
+    background-color: #00c0ff;
 }
 .multifilter li {
     background-color: #4b9eff;
@@ -54,10 +54,5 @@ select {
 }
 
 /* Search control */
-.search-row {
-    margin-left: 2.5rem;
-}
-.filtr-search {
-    padding: 0.5rem;
-    text-transform: uppercase;
-}
+.search-row {margin-left: 2.5rem;margin-top: 10px; }
+.filtr-search {padding: 0.5rem; text-transform: uppercase; }

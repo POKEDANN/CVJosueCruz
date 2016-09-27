@@ -17,25 +17,41 @@ a:visited{color: #ffffff;text-decoration: none;}
 .contactBtn{background-color: #00c0ff; border: none; margin-top: 20px; padding: 5px 20px; font-size: 20px;margin-left: 15px;color: #ffffff;box-shadow: 0 5px #666;border-radius: 15px;}
 .contactBtn:active{transform: translateY(4px);}
 
+/*estilos typed*/
+.sentences {text-align: center;font-size: 40px; }
+.animacion {background-color: #006485; color: white; padding: 70px; }
+.typed-cursor {font-size: 30px;}
+
 /*estilos del perfil*/
 .danielPhoto{border: 0;width: 265px;height: 269px; margin: 0 20px 20px 0; border-radius: 50%;}
 .style-two {border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
 .Learning{font-size: 1.5em;}
-.profile{font-size: 3em; font-weight: 700; letter-spacing: 5px;color: #00c0ff;}
+.profile{font-size: 3em; font-weight: 700; letter-spacing: 5px;color: #00c0ff;margin-bottom: 20px;}
 .myProfile{padding: 30px 0px;}
 .profileParag{font-size: 17px;}
 .descargarPerfil{margin: 0 auto;display: block;}
 
+/*estilos tecnologias*/
+.tecnologias {background: #333;padding: 40px; }
+
 /*estilos del portfolio*/
+.portfolio {padding: 20px;}
 .img-thumbnail{border: 3px solid #00c0ff !important;}
 .titleItem{color: #00c0ff;text-align: center;}
 .circle {stroke: #00c0ff; }
+circle.border {stroke: white; }
+text.timer {fill: white; }
 .style-three {border: 0; border-bottom: 2px dashed #fff; background: black;}
 
 /*estilos acordeon de cursos completados*/
+.actual {background: #333;color: #fff;padding: 30px;}
 .panel-default>.panel-heading {color: #fff; background-color: #00c0ff; text-align: center;}
 .panel-title {font-size: 20px; }
 .itemSpace{margin-top: 15px;}
+.style-twos {border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0)); }
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    background-image: url(../img/CityGlitters.png);
+}
 
 /* Timeline */
 .timeline-horizontal {list-style: none; padding: 20px; position: relative; }
@@ -73,6 +89,7 @@ a:visited{color: #ffffff;text-decoration: none;}
 
 .fa {color: #00c0ff; }
 .style-four {height: 12px; border: 0; box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5); }
+.lineaTiempo {background: #006485; }
 
 .rw-wrapper{width: 80%; position: relative; margin: 0px; font-family: 'Bree Serif'; padding: 10px; }
 .rw-sentence{margin: 0; text-align: left; text-shadow: 1px 1px 1px rgba(255,255,255,0.8); }

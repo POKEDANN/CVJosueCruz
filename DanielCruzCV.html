@@ -98,7 +98,6 @@
       <div class="carousel-caption">
         <h1 class="danielTitle">DANIEL CRUZ</h1>
         <p class="webParag">WEB DEVELOPER</p>
-        <p class="sentences"></p>
         <a href="https://github.com/POKEDANN"><i class="fa fa-github"></i></a>
         <a href="https://bitbucket.org/POKEDANN/"><i class="fa fa-bitbucket-square" aria-hidden="true"></i></a>
           <div>
@@ -140,6 +139,13 @@
 </div>
 <!-- carousel ends -->
 
+<!-- animation begins -->
+<section class="animacion">  
+  <div class="sentences">
+  </div>
+</section>
+<!-- animation ends -->
+
 <!-- profile begins -->
 <section class="myProfile">
   <div class="container">
@@ -166,7 +172,7 @@
 </section>
 
 <!-- skills begins -->
-<section>
+<section class="tecnologias">
   <div class="container">
     <div class="row">
     <h2 class="text-center profile">TECNOLOGIAS Y OTRAS HERRAMIENTAS</h2>
@@ -206,94 +212,86 @@
 </section>
 <!-- skills ends -->
 
-<!-- profile begins -->
-<h2 class="text-center profile">MI PORTAFOLIOS</h2>
-<div class="container">
-    <!-- Filter Controls - Simple Mode -->
-    <div class="row">
-        <!-- A basic setup of simple mode filter controls, all you have to do is use data-filter="all"
-        for an unfiltered gallery and then the values of your categories to filter between them -->
-        <ul class="simplefilter">
-            Simple filter controls:
-            <li class="active" data-filter="all">All</li>
-            <li data-filter="1">Html, Css, Php y Js</li>
-            <li data-filter="2">AngularJs</li>
-            <li data-filter="3">Mailings</li>
-            <li data-filter="4">Wordpress</li>
-        </ul>
-    </div>
+<!-- portfolio begins -->
+<section class="portfolio">
+  <h2 class="text-center profile">MI PORTAFOLIOS</h2>
+  <div class="container">
+      <!-- Filter Controls - Simple Mode -->
+      <div class="row">
+          <!-- A basic setup of simple mode filter controls, all you have to do is use data-filter="all"
+          for an unfiltered gallery and then the values of your categories to filter between them -->
+          <ul class="simplefilter">
+              Simple filter controls:
+              <li class="active" data-filter="all">All</li>
+              <li data-filter="1">Html, Css, Php y Js</li>
+              <li data-filter="2">AngularJs</li>
+              <li data-filter="3">Mailings</li>
+              <li data-filter="4">Wordpress</li>
+          </ul>
+      </div>
 
-    <div class="row search-row">
-        Search control:
-        <input type="text" class="filtr-search" name="filtr-search" data-search>
-    </div>
+      <div class="row search-row">
+          Search control:
+          <input type="text" class="filtr-search" name="filtr-search" data-search>
+      </div>
 
-    <div class="row">
-        <ul class="sortandshuffle">
-            Sort &amp; Shuffle controls:
-            <!-- Basic shuffle control -->
-            <li class="shuffle-btn" data-shuffle>Shuffle</li>
-            <!-- Basic sort controls consisting of asc/desc button and a select -->
-            <li class="sort-btn active" data-sortAsc>Asc</li>
-            <li class="sort-btn" data-sortDesc>Desc</li>
-        </ul>
-    </div>
-<!-- To choose the value by which you want to sort add -->
-<div class="filtr-container">
-    <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
-      <h4 class="titleItem">AUTOEFECTIVO</h4>
-       <a href="myprojects/landingAuto/index.html"><img src="img/autoefectivo.png" class="img-thumbnail"></a>
-    </div>
-    <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
-      <h4 class="titleItem">MARCAVIDAS</h4>
-       <a href="myprojects/marcavidas2/index.html"><img src="img/marcavidas.png" class="img-thumbnail">
-    </div>
-    <div class="col-sm-4 filtr-item" data-category="4" data-sort="value">
-      <h4 class="titleItem">XIMENA Y ALEX</h4>
-      <a href="http://ximenayalex.com/"><img src="img/ximenayAlex.png" class="img-thumbnail"></a>
-    </div>
-    <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
-      <h4 class="titleItem">EXITO INMOBILIARIO</h4>
-       <a href="myprojects/exitoInmobiliario/index.html"><img src="img/ExitoInmobiliario.png" class="img-thumbnail"></a>
-    </div>
-    <div class="col-sm-4 filtr-item" data-category="3" data-sort="value">
-      <h4 class="titleItem">MAILING EXITO INMOBILIARIO</h4>
-      <a href="myprojects/mailRemarketing/MailRemarketing.html"><img src="img/mailingExito.png" class="img-thumbnail"></a>
-    </div>
-    <div class="col-sm-4 filtr-item" data-category="4" data-sort="value">
-      <h4 class="titleItem">LA ROQUETA</h4>
-      <a href="http://laroqueta.mx/"><img src="img/laRoqueta.png" class="img-thumbnail"></a>
-    </div>
-    <div class="col-sm-4 filtr-item" data-category="3" data-sort="value">
-      <h4 class="titleItem">MAILING GRAND PARK</h4>
-      <a href="myprojects/GrandPark mailing/index.html"><img src="img/MailingGrandPark.png" class="img-thumbnail"></a>
-    </div>
-    <div class="col-sm-4 filtr-item" data-category="3" data-sort="value">
-      <h4 class="titleItem">MAILING GRAND PARTNER</h4>
-      <a href="myprojects/GrandPartner/index.html"><img src="img/GrandPartner.png" class="img-thumbnail"></a>
-    </div>
-    <div class="col-sm-4 filtr-item" data-category="2" data-sort="value">
-      <h4 class="titleItem">MENU LOMALINDA</h4>
-      <a href="myprojects/lomalindaMenuAng/public/index.html"><img src="img/MenuLomalinda.png" class="img-thumbnail"></a>
-    </div>
-    <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
-      <h4 class="titleItem">NOBA</h4>
-      <a href="myprojects/Nobacombinado/index.php"><img src="img/noba.png" class="img-thumbnail"></a>
-    </div>
-    <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
-      <h4 class="titleItem">HAUSKEEPER</h4>
-      <a href="http://hauskeeper.esy.es/login"><img src="img/hausKeeper.png" class="img-thumbnail"></a>
-    </div>
-</div>
+  <!-- To choose the value by which you want to sort add -->
+  <div class="filtr-container">
+      <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
+        <h4 class="titleItem">AUTOEFECTIVO</h4>
+         <a href="myprojects/landingAuto/index.html"><img src="img/autoefectivo.png" class="img-thumbnail"></a>
+      </div>
+      <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
+        <h4 class="titleItem">MARCAVIDAS</h4>
+         <a href="myprojects/marcavidas2/index.html"><img src="img/marcavidas.png" class="img-thumbnail">
+      </div>
+      <div class="col-sm-4 filtr-item" data-category="4" data-sort="value">
+        <h4 class="titleItem">XIMENA Y ALEX</h4>
+        <a href="http://ximenayalex.com/"><img src="img/ximenayAlex.png" class="img-thumbnail"></a>
+      </div>
+      <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
+        <h4 class="titleItem">EXITO INMOBILIARIO</h4>
+         <a href="myprojects/exitoInmobiliario/index.html"><img src="img/ExitoInmobiliario.png" class="img-thumbnail"></a>
+      </div>
+      <div class="col-sm-4 filtr-item" data-category="3" data-sort="value">
+        <h4 class="titleItem">MAILING EXITO INMOBILIARIO</h4>
+        <a href="myprojects/mailRemarketing/MailRemarketing.html"><img src="img/mailingExito.png" class="img-thumbnail"></a>
+      </div>
+      <div class="col-sm-4 filtr-item" data-category="4" data-sort="value">
+        <h4 class="titleItem">LA ROQUETA</h4>
+        <a href="http://laroqueta.mx/"><img src="img/laRoqueta.png" class="img-thumbnail"></a>
+      </div>
+      <div class="col-sm-4 filtr-item" data-category="3" data-sort="value">
+        <h4 class="titleItem">MAILING GRAND PARK</h4>
+        <a href="myprojects/GrandPark mailing/index.html"><img src="img/MailingGrandPark.png" class="img-thumbnail"></a>
+      </div>
+      <div class="col-sm-4 filtr-item" data-category="3" data-sort="value">
+        <h4 class="titleItem">MAILING GRAND PARTNER</h4>
+        <a href="myprojects/GrandPartner/index.html"><img src="img/GrandPartner.png" class="img-thumbnail"></a>
+      </div>
+      <div class="col-sm-4 filtr-item" data-category="2" data-sort="value">
+        <h4 class="titleItem">MENU LOMALINDA</h4>
+        <a href="myprojects/lomalindaMenuAng/public/index.html"><img src="img/MenuLomalinda.png" class="img-thumbnail"></a>
+      </div>
+      <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
+        <h4 class="titleItem">NOBA</h4>
+        <a href="myprojects/Nobacombinado/index.php"><img src="img/noba.png" class="img-thumbnail"></a>
+      </div>
+      <div class="col-sm-4 filtr-item" data-category="1" data-sort="value">
+        <h4 class="titleItem">HAUSKEEPER</h4>
+        <a href="http://hauskeeper.esy.es/login"><img src="img/hausKeeper.png" class="img-thumbnail"></a>
+      </div>
+  </div>
+</section>
 <!-- portfolio ends -->
 
 <!-- Reconocimientos y cursos begins-->
-<section>
+<section class="actual">
   <div class="container">
     <div class="row">
         <h4 class="text-center profile">ACTUALIZACION CONSTANTE</h4>
         <p class="text-center Learning">Te invito a revisar los certificados y cursos en linea que he tomado, los cuales avalan la actualizacion constante que tengo con respecto a mi area</p>
-        <hr class="style-two">
+        <hr class="style-twos">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
@@ -405,81 +403,83 @@
 <!-- Reconocimientos y cursos ends-->
 
 <!-- Timeline -->
-<div class="container">
-  <div class="row">
-  <div class="col-md-12">
-    <div class="page-header">
-      <h4 class="text-center profile">COMPLEMENTOS</h4>
-    </div>
-      <div style="display:inline-block;width:100%;overflow-y:auto;">
-        <ul class="timeline timeline-horizontal">
-          <li class="timeline-item">
-            <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title text-center">EXPERIENCIA</h4>
-                <center><i class="fa fa-briefcase" aria-hidden="true"></i></center>
+<section class="lineaTiempo">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+      <div class="page-header">
+        <h4 class="text-center profile">COMPLEMENTOS</h4>
+      </div>
+        <div style="display:inline-block;width:100%;overflow-y:auto;">
+          <ul class="timeline timeline-horizontal">
+            <li class="timeline-item">
+              <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title text-center">EXPERIENCIA</h4>
+                  <center><i class="fa fa-briefcase" aria-hidden="true"></i></center>
+                </div>
+                <div class="timeline-body">
+                  <hr class="style-four">
+                  <strong class="text-center"><a href="http://concepthaus.mx/" class="normalLink">Concept Haus Creative Agency</a></strong>
+                  <p>Residencias Profesionales - 2016</p>
+                  <p>Se trabajo en el proyecto HausKeeper, el cual nos dio tanto experiencia laboral como la oportunidad de aplicar lo aprendido en la universidad.</p>
+                </div>
               </div>
-              <div class="timeline-body">
-                <hr class="style-four">
-                <strong class="text-center"><a href="http://concepthaus.mx/" class="normalLink">Concept Haus Creative Agency</a></strong>
-                <p>Residencias Profesionales - 2016</p>
-                <p>Se trabajo en el proyecto HausKeeper, el cual nos dio tanto experiencia laboral como la oportunidad de aplicar lo aprendido en la universidad.</p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title text-center">IDIOMA INGLES</h4>
-                <center><i class="fa fa-globe" aria-hidden="true"></i></center>
-              </div>
-              <div class="timeline-body">
-                <hr class="style-four">
-                <p>En todo, siempre es necesario el idioma ingles como un requisito</p>
-                What would yo like to <span class="rotate">Make, Build, Create, Invent, Dream, Compose, Prepare, Produce, Accomplish, Develop</span> Today?
-                <div class="row">
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
-                      65%
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title text-center">IDIOMA INGLES</h4>
+                  <center><i class="fa fa-globe" aria-hidden="true"></i></center>
+                </div>
+                <div class="timeline-body">
+                  <hr class="style-four">
+                  <p>En todo, siempre es necesario el idioma ingles como un requisito</p>
+                  What would you like to <span class="rotate">Make, Build, Create, Invent, Dream, Compose, Prepare, Produce, Accomplish, Develop</span> Today?
+                  <div class="row">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                        65%
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-badge info"><i class="glyphicon glyphicon-check"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title text-center">ESCOLARIDAD</h4>
-                <center><i class="fa fa-graduation-cap" aria-hidden="true"></i></center>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-badge info"><i class="glyphicon glyphicon-check"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title text-center">ESCOLARIDAD</h4>
+                  <center><i class="fa fa-graduation-cap" aria-hidden="true"></i></center>
+                </div>
+                <div class="timeline-body">
+                  <hr class="style-four">
+                  <strong class="text-center">INSTITUTO TECNOLOGICO GUSTAVO A. MADERO</strong>
+                  <p>Ingenieria en Tecnologias de la Información y Comunicaciones / 2011 - 2016</p>
+                </div>
               </div>
-              <div class="timeline-body">
-                <hr class="style-four">
-                <strong class="text-center">INSTITUTO TECNOLOGICO GUSTAVO A. MADERO</strong>
-                <p>Ingenieria en Tecnologias de la Información y Comunicaciones / 2011 - 2016</p>
+            </li><!-- 
+            <li class="timeline-item">
+              <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Mussum ipsum cacilds 4</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                </div>
               </div>
-            </div>
-          </li><!-- 
-          <li class="timeline-item">
-            <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Mussum ipsum cacilds 4</h4>
-                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
-              </div>
-              <div class="timeline-body">
-                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
-              </div>
-            </div>
-          </li> -->
-        </ul>
+            </li> -->
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 <!-- Timeline -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -494,5 +494,13 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.circliful.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+      $(function(){
+          $(".sentences").typed({
+            strings: ["Hola soy Daniel Cruz","Bienvenido a mi pagina","Soy Programador Web y me especializo en FrontEnd","¿En que te puedo ayudar?", "¡Veamos juntos que podemos constuir hoy!"],
+            typeSpeed: 0
+          });
+      });
+    </script>
   </body>
 </html>
