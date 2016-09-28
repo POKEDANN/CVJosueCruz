@@ -2,13 +2,6 @@ var filterizd = $('.filtr-container').filterizr({
    //options object
 });
 
-$(function(){
-          $(".sentences").typed({
-            strings: ["Buen dia,", "Soy Daniel Cruz", "Estoy a tu servicio", "¿Que vamos a crear hoy?", ""],
-            typeSpeed: 0
-          });
-      });
-
 $( document ).ready(function() {
 
             $(".rotate").textrotator({
@@ -52,4 +45,5 @@ $( document ).ready(function() {
             backgroundBorderWidth: 15,
             percent: 40,
         });
+
         });

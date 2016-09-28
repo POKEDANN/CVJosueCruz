@@ -37,47 +37,23 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <!-- <a class="navbar-brand" href="#">Brand</a> -->
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
+        <li class="active"><a href="#inicio" id="inicio">Inicio <span class="sr-only">(current)</span></a></li>
+            <li><a href="#perfil" id="perfil">Perfil</a></li>
+            <li><a href="#tecnology" id="tecnology">Tecnologias</a></li>
+            <li><a href="#portfolio" id="portafolios">Portafolios</a></li>
+            <li><a href="#actual" id="actualizacion">Actualización</a></li>
+            <li><a href="#complementos" id="complementos">Complementos</a></li>
+            <li><a href="#contactame" id="contactame">Contactame</a></li>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
+        <p class="sentences"></p>
   </div><!-- /.container-fluid -->
 </nav>
 <!-- navbar ends -->
@@ -147,6 +123,7 @@
 <!-- animation ends -->
 
 <!-- profile begins -->
+<div id="myProfile"></div>
 <section class="myProfile">
   <div class="container">
     <div class="row">
@@ -172,6 +149,7 @@
 </section>
 
 <!-- skills begins -->
+<div id="tecnologias"></div>
 <section class="tecnologias">
   <div class="container">
     <div class="row">
@@ -213,6 +191,7 @@
 <!-- skills ends -->
 
 <!-- portfolio begins -->
+<div id="portfolio"></div>
 <section class="portfolio">
   <h2 class="text-center profile">MI PORTAFOLIOS</h2>
   <div class="container">
@@ -286,6 +265,7 @@
 <!-- portfolio ends -->
 
 <!-- Reconocimientos y cursos begins-->
+<div id="actual"></div>
 <section class="actual">
   <div class="container">
     <div class="row">
@@ -403,12 +383,13 @@
 <!-- Reconocimientos y cursos ends-->
 
 <!-- Timeline -->
+<div id="lineaTiempo"></div>
 <section class="lineaTiempo">
   <div class="container">
     <div class="row">
     <div class="col-md-12">
       <div class="page-header">
-        <h4 class="text-center profile">COMPLEMENTOS</h4>
+        <h4 class="text-center profile blanco">COMPLEMENTOS</h4>
       </div>
         <div style="display:inline-block;width:100%;overflow-y:auto;">
           <ul class="timeline timeline-horizontal">
@@ -416,14 +397,14 @@
               <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title text-center">EXPERIENCIA</h4>
+                  <h4 class="timeline-title text-center blanco">EXPERIENCIA</h4>
                   <center><i class="fa fa-briefcase" aria-hidden="true"></i></center>
                 </div>
                 <div class="timeline-body">
                   <hr class="style-four">
-                  <strong class="text-center"><a href="http://concepthaus.mx/" class="normalLink">Concept Haus Creative Agency</a></strong>
-                  <p>Residencias Profesionales - 2016</p>
-                  <p>Se trabajo en el proyecto HausKeeper, el cual nos dio tanto experiencia laboral como la oportunidad de aplicar lo aprendido en la universidad.</p>
+                  <strong class="text-center blanco"><a href="http://concepthaus.mx/" class="normalLink">CONCEPT HAUS CREATIVE AGENCY</a></strong>
+                  <p class="blanco margen">Residencias Profesionales - 2016</p>
+                  <p class="blanco margen">Se trabajo en el proyecto HausKeeper, el cual nos dio tanto experiencia laboral como la oportunidad de aplicar lo aprendido en la universidad.</p>
                 </div>
               </div>
             </li>
@@ -431,17 +412,21 @@
               <div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title text-center">IDIOMA INGLES</h4>
+                  <h4 class="timeline-title text-center blanco">IDIOMA INGLES</h4>
                   <center><i class="fa fa-globe" aria-hidden="true"></i></center>
                 </div>
                 <div class="timeline-body">
                   <hr class="style-four">
-                  <p>En todo, siempre es necesario el idioma ingles como un requisito</p>
-                  What would you like to <span class="rotate">Make, Build, Create, Invent, Dream, Compose, Prepare, Produce, Accomplish, Develop</span> Today?
+                  <p class="blanco">En todo, siempre es necesario el idioma ingles como un requisito.</p>
+                  <p class="margen ingles left">What would you like to</p>
+                    <center>
+                      <span class="rotate">Make, Build, Create, Invent, Dream, Compose, Prepare, Produce, Accomplish, Develop, Fix, Generate</span>
+                    </center>
+                  <p class="ingles right">Today?</p>
                   <div class="row">
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
-                        65%
+                    <div class="progress margen">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                        80%
                       </div>
                     </div>
                   </div>
@@ -457,8 +442,8 @@
                 </div>
                 <div class="timeline-body">
                   <hr class="style-four">
-                  <strong class="text-center">INSTITUTO TECNOLOGICO GUSTAVO A. MADERO</strong>
-                  <p>Ingenieria en Tecnologias de la Información y Comunicaciones / 2011 - 2016</p>
+                  <strong class="text-center blanco">INSTITUTO TECNOLOGICO GUSTAVO A. MADERO</strong>
+                  <p class="margen">Ingenieria en Tecnologias de la Información y Comunicaciones / 2011 - 2016</p>
                 </div>
               </div>
             </li><!-- 
@@ -483,6 +468,7 @@
 <!-- Timeline -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/jquery.filterizr.min.js"></script>
     <script src="parallax.js-1.4.2/parallax.js"></script>
@@ -490,6 +476,7 @@
     <script src="js/lightbox.js"></script>
     <script src="js/jquery.simple-text-rotator.js"></script>
     <script src="js/typed.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.circliful.min.js"></script>
@@ -497,10 +484,34 @@
     <script>
       $(function(){
           $(".sentences").typed({
-            strings: ["Hola soy Daniel Cruz","Bienvenido a mi pagina","Soy Programador Web y me especializo en FrontEnd","¿En que te puedo ayudar?", "¡Veamos juntos que podemos constuir hoy!"],
-            typeSpeed: 0
+            strings: ["Hola soy Daniel Cruz","Bienvenido a mi pagina","Soy Programador Web", "Me especializo en FrontEnd","¿En que te puedo ayudar?", "¿Tienes alguna idea en mente?", "¡Veamos juntos que podemos construir hoy!"],
+            typeSpeed: 40,
+            backSpeed: 40
           });
       });
+    </script>
+    <script>
+        $('#inicio').click(function() {
+                $('body').scrollTo('#carousel-example-generic', 800);
+        });
+        $('#perfil').click(function() {
+                $('body').scrollTo('#myProfile', 800);
+        });
+        $('#tecnology').click(function() {
+                $('body').scrollTo('#tecnologias', 800);
+        });
+        $('#portafolios').click(function() {
+                $('body').scrollTo('#portfolio', 800);
+        });
+        $('#actualizacion').click(function() {
+                $('body').scrollTo('#actual', 800);
+        });
+        $('#complementos').click(function() {
+                $('body').scrollTo('#lineaTiempo', 800);
+        });
+        $('#contactame').click(function() {
+                $('body').scrollTo('#contacto', 800);
+        });
     </script>
   </body>
 </html>
