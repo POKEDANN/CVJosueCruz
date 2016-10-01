@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link href="css/lightbox.css" rel="stylesheet">
     <link href="css/simpletextrotator.css" rel="stylesheet">
+    <link href="css/et-line.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -58,7 +59,7 @@
 </nav>
 <!-- navbar ends -->
 <!-- carousel begins -->
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide slide-sr" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -467,6 +468,48 @@
 </section>
 <!-- Timeline -->
 
+<!-- Services begins -->
+<section id="service" class="pb-40 friendServices">
+  <div class="container">
+    <div class="row mt-40 mt-xs-20">
+      <div class="col-md-12 text-center">
+        <h3>Otros <b>Servicios</b></h3>
+        <p class="text-center Learning">Junto con mis amigos, formamos un gran equipo, ponte en contacto con ellos si requieres alguno de sus servicios:</p>
+      </div>
+    </div>
+      <div class="col-sm-4 text-center">
+        <div class="service-item"><i class="icon-laptop"></i>
+          <h5 class="alt-font">Erik Rodriguez</h5>
+          <h5 class="alt-font">Backend</h5>
+          <div class="service-desc">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima suscipit vero, voluptate aspernatur!</p>
+            <button class="contactBtnService"><a href="http://erikrodriguez.esy.es/">CONTACTAME</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 text-center">
+        <div class="service-item"><i class="icon-presentation"></i>
+          <h5 class="alt-font">Carlos Ferrer</h5>
+          <h5 class="alt-font">Mercadologo</h5>
+          <div class="service-desc">
+            <p>Puedes checar mi perfil en: Linkedin</p>
+            <button class="contactBtnService">DESCARGAR PERFIL</button>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-sm-4 text-center">
+        <div class="service-item"><i class="icon-tools-2"></i>
+          <h5 class="alt-font">Development</h5>
+          <div class="service-desc">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima suscipit vero, voluptate aspernatur!</p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</section>
+<!-- Services ends -->
+
 <!-- contact begins -->
 <div id="contacto"></div>
 <section class="miContacto" id="miContacto">
@@ -509,6 +552,10 @@
 </section>
 <!-- contact ends -->
 
+<footer>
+  que onda
+</footer>
+
 <!-- Return to Top -->
 <a id="return-to-top"><i class="glyphicon glyphicon-chevron-up"></i></a>
 <!-- Return to Top -->
@@ -527,10 +574,11 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.circliful.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
     <script>
       $(function(){
           $(".sentences").typed({
-            strings: ["Hola soy Daniel Cruz","Bienvenido a mi pagina","Soy Programador Web", "Me especializo en FrontEnd","¿En que te puedo ayudar?", "¿Tienes alguna idea en mente?", "¡Veamos juntos que podemos construir hoy!"],
+            strings: ["Hola soy Daniel Cruz","Bienvenido a mi pagina","Soy Programador Web", "Me especializo en FrontEnd","¿En que te puedo ayudar?", "¿Tienes alguna idea en mente?", "¡Veamos juntos que podemos construir hoy!", "Tu pon la idea y yo pongo mis habilidades", "Juntos haremos de tu idea el mejor mundo"],
             typeSpeed: 40,
             backSpeed: 40
           });
