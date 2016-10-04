@@ -66,7 +66,7 @@ $( document ).ready(function() {
 
         window.sr = ScrollReveal({ reset: true });
         // Customizing a reveal set
-        sr.reveal('#carousel-example-generic, .danielTitle, .webParag, .fa-github, .fa-bitbucket-square, .contactBtn, .itgamTitle, .text-center, .Learning, .style-two, .danielPhoto, .profileParag, .descargarPerfil, .myProfile, .tecnologias, .titleItem, .test-circle, .test-circle1, .test-circle2, .test-circle3, .test-circle4, .test-circle5, .test-circle6, .portfolio, .simplefilter, .search-row, .filtr-container, .style-twos, .panel-default, .img-rounded, .timeline-panel, .fa-briefcase, .style-four, .blanco, .timeline-badge, .fa-globe, .ingles, .rotate, .progress-bar, .glyphicon-check, .margen', 
+        sr.reveal('#carousel-example-generic, .danielTitle, .webParag, .fa-github, .fa-bitbucket-square, .contactBtn, .text-center, .Learning, .style-two, .danielPhoto, .profileParag, .descargarPerfil, .myProfile, .tecnologias, .titleItem, .test-circle, .test-circle1, .test-circle2, .test-circle3, .test-circle4, .test-circle5, .test-circle6, .portfolio, .simplefilter, .search-row, .filtr-container, .style-twos, .panel-default, .img-rounded, .timeline-panel, .fa-briefcase, .style-four, .blanco, .timeline-badge, .fa-globe, .ingles, .rotate, .progress-bar, .glyphicon-check, .margen, .miContacto, .contactTitle, .contactSubtitle, label, input, .divider, textarea', 
             { duration: 2000});
         
     

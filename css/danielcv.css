@@ -156,6 +156,7 @@ span.rotate{font-size: 35px;color: #00c0ff;}
 .service-item:hover i {top: -30px; }
 .service-item:hover h5 {top: -30px; }
 .service-item:hover .service-desc {opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
+.margenAbajo{margin-bottom: 40px;}
 
 /*estilos contacto*/
 .miContacto {padding: 1px 0 50px; }
