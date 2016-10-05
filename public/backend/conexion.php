@@ -1,5 +1,5 @@
 <?php 
-$db = misqli_connect('localhost', 'root', 'root', 'Curriculum');
+$db = mysqli_connect('localhost', 'root', 'root', 'Curriculum');
 $db->query("SET NAMES 'utf-8'");
 if(mysqli_connect_errno())
 {

@@ -62,7 +62,7 @@ text.timer {fill: white; }
 .itemSpace{margin-top: 15px;}
 .style-twos {border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0)); }
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
-    background-image: url(../img/CityGlitters.png);
+    background-image: url(../img/white-black-light-lines-patterns.jpg); background-size: contain; background-repeat: round;
 }
 
 /* estilos Timeline */

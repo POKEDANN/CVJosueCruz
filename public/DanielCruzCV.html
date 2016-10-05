@@ -18,7 +18,7 @@
     <link href="css/lightbox.css" rel="stylesheet">
     <link href="css/simpletextrotator.css" rel="stylesheet">
     <link href="css/et-line.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/sweetalert.min.css">
+    <link rel="stylesheet" href="css/sweetalert.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -80,7 +80,7 @@
         <a href="https://github.com/POKEDANN"><i class="fa fa-github"></i></a>
         <a href="https://bitbucket.org/POKEDANN/"><i class="fa fa-bitbucket-square" aria-hidden="true"></i></a>
           <div>
-            <button class="contactBtn">CONTACTAME</button>
+            <button class="contactBtn" id="contaButton">CONTACTAME</button>
           </div>
       </div>
     </div>
@@ -132,7 +132,8 @@
     <div class="row">
       <div class="col-sm-12">
         <h2 class="text-center profile">PERFIL PROFESIONAL</h2>
-        <p class="Learning text-center">"Un gramo de práctica es generalmente más valioso que una tonelada de teoría."</p>
+        <p class="Learning text-center">"U
+        n gramo de práctica es generalmente más valioso que una tonelada de teoría."</p>
         <hr class="style-two">
       </div>
     </div>
@@ -277,7 +278,7 @@
   <div class="container">
     <div class="row">
         <h4 class="text-center profile">ACTUALIZACION CONSTANTE</h4>
-        <p class="text-center Learning">Te invito a revisar los certificados y cursos en linea que he tomado, los cuales avalan la actualizacion constante que tengo con respecto a mi area</p>
+        <p class="text-center Learning">Te invito a revisar los certificados y cursos en linea que he tomado, los cuales avalan la actualizacion constante que tengo con respecto a mi area.</p>
         <hr class="style-twos">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
           <div class="panel panel-default">
@@ -522,10 +523,10 @@
   <div class="formContainer form">
     <div class="rowForm header form">
       <h2 class="contactTitle">CONTACTAME &nbsp;</h2>
-      <h3 class="contactSubtitle">¡Proporcioname tus datos para poder aprender mas acerca de ti y tu idea!</h3>
+      <h3 class="contactSubtitle">¡Proporcioname tus datos para poder aprender mas acerca de ti y tu idea y me pondre en contacto contigo!</h3>
     </div>
     <div class="rowForm body form">
-      <form class="contactForm" id="CVform">
+      <form id="CVform" class="contactForm" >
         <ul>
           <li>
             <p class="left">
@@ -539,17 +540,16 @@
           </li>
           <li>
             <p>
-              <label for="email">email <span class="req">*</span></label>
-              <input type="email" name="email" placeholder="cruzmmh@gmail.com" />
-            </p>
+              <label for="email">Email<span class="req">*</span></label>
+              <input name="email" placeholder="email"       
           </li>        
           <li><div class="divider"></div></li>
           <li>
             <label for="comments">Hablame acerca de tu proyecto:</label>
-            <textarea cols="46" rows="3" name="comentarios" placeholder="Descripcion de tu proyecto"></textarea>
+            <textarea cols="46" rows="3" name="mensaje" placeholder="Descripcion de tu proyecto"></textarea>
           </li>
           <li>
-            <button class="contactBtn" type="submit" value="Submit">ENVIAR</button>
+            <button class="contactBtn" type="submit">ENVIAR</button>
           </li>
         </ul>
       </form>  
@@ -588,6 +588,7 @@
           });
       });
     </script>
+
     <script>
         $('#inicio').click(function() {
                 $('body').scrollTo('#carousel-example-generic', 800);
@@ -610,7 +611,11 @@
         $('#contactame').click(function() {
                 $('body').scrollTo('#contacto', 800);
         });
+        $('#contaButton').click(function() {
+                $('body').scrollTo('#contacto', 800);
+        });
     </script>
+
     <script>
       jQuery(function($){
         var form = $('form#CVform');
@@ -620,24 +625,25 @@
 
           $.ajax({
             type:'POST',
-            url:'backend/server.php',
+            url:'backend/formulario1.php',
             data: dataString,
             beforeSend: function(){
-              swal({title: "Procesando",
-                text: "Validando tus datos...",
-                showConfirmButton: false});
+            swal({   title: "Procesando",   
+            text: "Estoy validando tus datos...", 
+            showConfirmButton: true});
             },
             success:function(data){
               $('#warnings').replaceWith(data);
             },
-            complete.function(){
+            complete:function(){
 
             }
           });
-          return false;
+          return true;
         })
       })
     </script>
+
   </body>
 </html>
 
