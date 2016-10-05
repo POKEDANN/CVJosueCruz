@@ -146,7 +146,7 @@
         <p class="text-justify profileParag">Asumo con responsabilidad los retos y metas de la organización; me adapto al cambio, tengo facilidad para trabajar en equipo en condiciones de alta presión, así como para resolver problemas eficientemente; asimismo lograr las metas de productividad trazadas por la empresa y mi grupo de trabajo.</p>
         <p class="text-justify profileParag">Especializado en la programación web en el área de Front End, aprendo rápidamente para cumplir puntualmente con los proyectos asignados, me intereso en la actualización de IT para lograr procesos eficientes y mejores soluciones generando más utilidades a la compañía.</p>
         <p class="text-justify profileParag">En el diario laborar es importante el cliente con el cual estoy involucrado a nivel social e institucional, tengo ideas claras con respecto a mis objetivos, habilidades y áreas de oportunidad.</p>
-          <button class="contactBtn descargarPerfil"><a href="docs/CVJosueCruz.pdf" download="docs/CVJosueCruz.pdf">DESCARGAR PERFIL</a></button>
+        <button class="contactBtn descargarPerfil"><a href="docs/CVJosueCruz.pdf" download="docs/CVJosueCruz.pdf">DESCARGAR PERFIL</a></button>
       </div>
     </div>
   </div>
@@ -491,6 +491,7 @@
           <div class="service-desc">
             <p class="erikFrase">"Me gusta la idea de hacer lo que te apasiona, reír, bailar, programar, leer, entrenar, estudiar, en ese momento se vuelve diversión todo aquello que llaman trabajo y esfuerzo."</p>
             <button class="contactBtnService"><a href="http://erikrodriguez.esy.es/">CONTACTAME</a></button>
+            <button class="contactBtnService"><a href="docs/CVErik.pdf" download="docs/CVErik.pdf">DESCARGAR PERFIL</a></button>
           </div>
         </div>
       </div>
@@ -531,22 +532,22 @@
           <li>
             <p class="left">
               <label for="first_name">Nombre(s)</label>
-              <input type="text" name="nombres" placeholder="Daniel" />
+              <input type="text" name="nombres" placeholder="Daniel" maxlength="40" />
             </p>
             <p class="pull-right">
               <label for="last_name">Apellido(s)</label>
-              <input type="text" name="apellidos" placeholder="Cruz" />      
+              <input type="text" name="apellidos" placeholder="Cruz" max="40" />      
             </p>
           </li>
           <li>
             <p>
               <label for="email">Email<span class="req">*</span></label>
-              <input name="email" placeholder="email"       
+              <input name="email" placeholder="email" maxlength="40">       
           </li>        
           <li><div class="divider"></div></li>
           <li>
             <label for="comments">Hablame acerca de tu proyecto:</label>
-            <textarea cols="46" rows="3" name="mensaje" placeholder="Descripcion de tu proyecto"></textarea>
+            <textarea cols="46" rows="3" name="mensaje" maxlength="200" placeholder="Descripcion de tu proyecto"></textarea>
           </li>
           <li>
             <button class="contactBtn" type="submit">ENVIAR</button>
@@ -558,6 +559,10 @@
 </section>
 
 <div id="warnings"></div>
+
+<footer>
+  
+</footer>
 
 <!-- Return to Top -->
 <a id="return-to-top"><i class="glyphicon glyphicon-chevron-up"></i></a>

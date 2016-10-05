@@ -146,7 +146,8 @@ span.rotate{font-size: 35px;color: #00c0ff;}
 }
 
 /*estilos servicios*/
-.contactBtnService{background-color: #00c0ff; border: none; padding: 5px 20px; font-size: 15px;margin-left: 15px;color: #ffffff;box-shadow: 0 5px #666;border-radius: 15px;}
+.friendServices{padding: 15px 0 30px;}
+.contactBtnService{background-color: #00c0ff; border: none; padding: 3px 12px; font-size: 13px; margin-left: 2px; color: #ffffff; box-shadow: 0 5px #666; border-radius: 15px;}
 .erikFrase{margin: 0 -15px 10px;}
 
 .service-item {width: 100%; height: 320px; margin: 10px 0; text-align: center; border: 1px solid #f2f2f2; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
@@ -160,7 +161,7 @@ span.rotate{font-size: 35px;color: #00c0ff;}
 .margenAbajo{margin-bottom: 40px;}
 
 /*estilos contacto*/
-.miContacto {padding: 1px 0 50px; }
+.miContacto {padding: 1px 0 50px;background-image: url(../img/patterns_blue_white_black.jpg); background-size: cover; }
 
 .form, textarea, input {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
