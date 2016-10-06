@@ -31,7 +31,7 @@ a:visited{color: #ffffff;text-decoration: none;}
 
 /*estilos typed*/
 .sentences {text-align: center; font-size: 18px; color: #ffffff; }
-.animacion {background-color: #006485; color: white; padding: 70px; display: none;}
+/*.animacion {background-color: #006485; color: white; padding: 70px;}*/
 .typed-cursor {font-size: 30px;}
 
 /*estilos del perfil*/
@@ -220,3 +220,20 @@ form.contactForm small {color: #4f6fad; margin: 0 0 0 0.5em; }
 #return-to-top:hover {background: rgb(0, 100, 133); }
 
 #return-to-top:hover i {color: #fff; top: 5px; }
+
+/*estilos footer*/
+footer {background: #006485;color: #ffffff; }
+.footerB{background: #5bc0de;}
+
+
+
+
+
+
+
+
+
+
+
+
+

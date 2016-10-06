@@ -130,7 +130,7 @@ if(checkmailf1($email)){
 
     else{
         echo "<div id='warnings'> 
-            <script>sweetAlert({title:'Error',text:'Este e-mail es incorrectoide',confirmButtonColor:'#F06060',type:'error'}); </script></div>";
+            <script>sweetAlert({title:'Error',text:'Este e-mail es incorrecto',confirmButtonColor:'#F06060',type:'error'}); </script></div>";
         }
     }
 
