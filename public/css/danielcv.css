@@ -222,11 +222,14 @@ form.contactForm small {color: #4f6fad; margin: 0 0 0 0.5em; }
 #return-to-top:hover i {color: #fff; top: 5px; }
 
 /*estilos footer*/
-footer {background: #006485;color: #ffffff; }
+footer {background: #006485;color: #ffffff;font-size: 17px; }
 .footerB{background: #5bc0de;}
-
-
-
+ul{list-style: none;}
+.iconito{color: #5bc0de;font-size: 20px !important;margin-left:0px;margin-bottom: 9px; }
+.iconi{font-size: 30px !important; margin-right: 5px;color: #5bc0de;margin-left:0px;margin-bottom: 9px;}
+.fa-envelope-o {margin-left: -5px; padding-right: 4px; }
+.RighTwo{float: right;}
+.lefTwo{margin-left: -25px;}
 
 
 
