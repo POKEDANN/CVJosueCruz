@@ -94,7 +94,7 @@ if(checkmailf1($email)){
     if(mysqli_num_rows($result) == 0){
     if(!is_numeric($nombres))
         {
-            if($longnom > 3)
+            if($longnom > 20)
                 {
                     $sql="INSERT INTO contactoscv(`id`, `nombres`,`apellidos`,`email`,`mensaje`) VALUES
                     ('','$nombres','$apellidos','$email','$mensaje')";
