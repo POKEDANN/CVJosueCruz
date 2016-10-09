@@ -73,7 +73,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item imgSlider active">
-      <img src="img/chme.jpg" class="concept">
+      <img src="img/graduacion.jpg" class="grad">
       <div class="carousel-caption">
         <h1 class="danielTitle">DANIEL CRUZ</h1>
         <p class="webParag">WEB DEVELOPER</p>
@@ -567,13 +567,13 @@
       <div class="col-sm-4">
         <h3>Menu principal</h3>
         <ul>
-          <li><i class="fa fa-gear fa-spin iconito"></i> Inicio</li>
-          <li><i class="fa fa-gear fa-spin iconito"></i> Perfil</li>
-          <li><i class="fa fa-gear fa-spin iconito"></i> Tecnologias</li>
-          <li><i class="fa fa-gear fa-spin iconito"></i> Portafolios</li>
-          <li><i class="fa fa-gear fa-spin iconito"></i> Actualización</li>
-          <li><i class="fa fa-gear fa-spin iconito"></i> Complementos</li>
-          <li><i class="fa fa-gear fa-spin iconito"></i> ¡Contactame!</li>
+          <li><a href="#inicio" id="inicioDos"><i class="fa fa-gear fa-spin iconito"></i> Inicio</li></a>
+          <li><a href="#perfil" id="perfilDos"><i class="fa fa-gear fa-spin iconito"></i> Perfil</li></a>
+          <li><a href="#tecnology" id="tecnologyDos"><i class="fa fa-gear fa-spin iconito"></i> Tecnologias</li></a>
+          <li><a href="#portfolio" id="portafoliosDos"><i class="fa fa-gear fa-spin iconito"></i> Portafolios</li></a>
+          <li><a href="#actual" id="actualizacionDos"><i class="fa fa-gear fa-spin iconito"></i> Actualización</li></a>
+          <li><a href="#complementos" id="complementosDos"><i class="fa fa-gear fa-spin iconito"></i> Complementos</li></a>
+          <li><a href="#contactame" id="contactameDos"><i class="fa fa-gear fa-spin iconito"></i> ¡Contactame!</li></a>
         </ul>
       </div>
       <div class="col-sm-4">
@@ -587,7 +587,7 @@
       <div class="col-sm-4">
       <h3>Otros Servicios</h3>
         <ul>
-          <li><i class="fa fa-laptop iconito" aria-hidden="true"></i> Backend</li>
+          <li><i class="fa fa-laptop iconito" aria-hidden="true"></i><a href="http://erikrodriguez.esy.es/"> Backend</li></a>
           <li><i class="fa fa-bar-chart iconito" aria-hidden="true"></i> Mercadologo</li>
         </ul>
       </div>
@@ -665,6 +665,27 @@
                 $('body').scrollTo('#contacto', 800);
         });
         $('#contaButton').click(function() {
+                $('body').scrollTo('#contacto', 800);
+        });
+        $('#inicioDos').click(function() {
+                $('body').scrollTo('#carousel-example-generic', 800);
+        });
+        $('#perfilDos').click(function() {
+                $('body').scrollTo('#myProfile', 800);
+        });
+        $('#tecnologyDos').click(function() {
+                $('body').scrollTo('#tecnologias', 800);
+        });
+        $('#portafoliosDos').click(function() {
+                $('body').scrollTo('#portfolio', 800);
+        });
+        $('#actualizacionDos').click(function() {
+                $('body').scrollTo('#actual', 800);
+        });
+        $('#complementosDos').click(function() {
+                $('body').scrollTo('#lineaTiempo', 800);
+        });
+        $('#contactameDos').click(function() {
                 $('body').scrollTo('#contacto', 800);
         });
     </script>
