@@ -238,8 +238,33 @@ ul{list-style: none;}
 .faDos:hover{color: #ffffff;}
 span {font-weight: bold; font-size: 19px;}
 
+/*media queries*/
+@media (max-width: 1200px){
+  .nav.navbar-nav {font-size: 14px; }
+  .tecnologias {padding: 40px 0; }
+  .grad {height: 100% !important; }
+  .danielPhoto {width: 225px; margin-top: 42px !important; height: 229px; }
+  .service-item {height: 370px; }
+  .contactBtnService {margin-top: 12px; }
+}
 
+@media (max-width: 1024px){
+}
 
+@media (max-width: 990px){
+}
+
+@media (max-width: 767px){
+}
+
+@media(max-width: 600px){
+}
+
+@media (max-width: 480px){
+}
+
+@media(max-width: 320px){
+}
 
 
 
