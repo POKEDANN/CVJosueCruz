@@ -238,6 +238,23 @@ ul{list-style: none;}
 .faDos:hover{color: #ffffff;}
 span {font-weight: bold; font-size: 19px;}
 
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#cd-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+}
+
 /*media queries*/
 @media (max-width: 1200px){
   .nav.navbar-nav {font-size: 14px; }
@@ -248,16 +265,32 @@ span {font-weight: bold; font-size: 19px;}
   .contactBtnService {margin-top: 12px; }
 }
 
-@media (max-width: 1024px){
-}
-
 @media (max-width: 990px){
+  .danielPhoto {margin-left: -50px; }
 }
 
 @media (max-width: 767px){
+  .danielPhoto {margin: 0 auto; display: block; margin-bottom: 20px;}
+  .svg-container {width: 30% !important; }
+  .profile {font-size: 2.5em; }
+  .img-thumbnail {margin-bottom: 20px; }
+  .service-item {height: 290px !important; }
+  .miContacto {background-size: contain; }
+  .centro{text-align: center;}
+  .nav.navbar-nav {width: 100%; }
+  .navbar-default .navbar-toggle {border-color: #00c0ff; background-color: #00c0ff !important; }
+  .navbar-default .navbar-toggle .icon-bar {background-color: #ffffff; }
+  .navbar-default .navbar-toggle:hover {border-color: #ffffff; background-color: #ffffff !important; }
+  .navbar-default .navbar-toggle .icon-bar:hover {background-color: #00c0ff !important; }
 }
 
 @media(max-width: 600px){
+  .grad, .itgamEgres, .itgamEsc {height: 50% !important; }
+  .danielTitle {font-size: 2.5em; }
+  .carousel-inner {height: 349px; }
+  .carousel-caption {bottom: 380px; }
+  .itgamTitle {display: none; }
+  .simplefilter li {margin-bottom: 8px; }
 }
 
 @media (max-width: 480px){
