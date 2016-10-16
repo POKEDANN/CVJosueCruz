@@ -5,6 +5,7 @@ a:hover{color: #ffffff;text-decoration: none;}
 a:visited{color: #ffffff;text-decoration: none;}
 .blanco{color: white !important;}
 #myProfile, #tecnologias, #portfolio, #actual, #lineaTiempo, #contacto{margin-top: -85px; height: 2px; width: 2px; position: absolute;}
+.dos{display: none;}
 
 /*estilos navbar*/
 .nav.navbar-nav {margin: 0 auto; display: block; width: 1080px; float: inherit; }
@@ -282,6 +283,12 @@ span {font-weight: bold; font-size: 19px;}
   .navbar-default .navbar-toggle .icon-bar {background-color: #ffffff; }
   .navbar-default .navbar-toggle:hover {border-color: #ffffff; background-color: #ffffff !important; }
   .navbar-default .navbar-toggle .icon-bar:hover {background-color: #00c0ff !important; }
+  .uno{display: none;}
+  .dos{display: initial;}
+  .tres{margin-top: 10px !important;}
+  .grad, .itgamEgres, .itgamEsc {height: 70% !important; }
+  .carousel-inner {height: 489px; }
+  .carousel-caption {bottom: 240px; }
 }
 
 @media(max-width: 600px){
@@ -294,6 +301,15 @@ span {font-weight: bold; font-size: 19px;}
 }
 
 @media (max-width: 480px){
+  .grad, .itgamEgres, .itgamEsc {height: 45% !important; }
+  .carousel-inner {height: 314px; }
+  .webParag {font-size: 1.5em; }
+  .fa {font-size: 30px !important; }
+  .contactBtn {font-size: 15px; }
+  .carousel-caption {bottom: 420px; }
+  .dos {font-size: 15px; }
+  .svg-container {width: 40% !important; }
+  .service-item {height: 330px !important; }
 }
 
 @media(max-width: 320px){
