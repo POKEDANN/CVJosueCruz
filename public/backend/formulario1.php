@@ -1,6 +1,7 @@
 <?php
 require 'conexion.php';
 require 'phpmailer/PHPMailerAutoload.php';
+require 'phpmailer/class.pop3.php';
     // //Template User Formulario
     // $templateUser = file_get_contents('MailUserForm.html');
     // $templateUser = str_replace('%name%', $nombre,$templateUser);
@@ -15,6 +16,7 @@ require 'phpmailer/PHPMailerAutoload.php';
 
     function enviaMail($nombres, $apellidos, $email, $mensaje){
     $mail = new PHPMailer;
+    // $mail->SMTPDebug = 2;
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
@@ -22,24 +24,24 @@ require 'phpmailer/PHPMailerAutoload.php';
     $mail->Username = 'cruzmmh@gmail.com';
     $mail->Password = 'Ligakalos1';
     $mail->Port = 587;
-    $mail->setFrom('cruzmmh@gmail.com','Mensaje desde CV');
+    $mail->setFrom('cruzmmh@gmail.com','Te han enviado un mensaje desde danielcruz.esy.es');
     $mail->addAddress('cruzmmh@gmail.com');
     $mail->isHTML(true);
     $mail->CharSet = 'UTF-8';
     $mail->Subject = 'Nuevo contacto a tu CV';
-    $mail->Body = "Daniel alguien te ha enviado un mensaje desde DanielCruzCV<br>
+    $mail->Body = "Mensaje nuevo desde danielcruz.esy.es!!!<br>
          Nombre: ".$nombres."<br>"
          ."Apellido: " .$apellidos."<br>"
          ."Correo: " .$email."<br>"
          ."Mensaje: " .$mensaje;
     $mail->Body = str_replace('\r\n','<br>',$mail->Body);
 
-    // if(!$mail->send()){
-    // echo 'Message could not be send.';
-    // echo 'Mailer Error: ' . $mail->ErrorInfo;
-    // }else{
-    // echo 'Correo enviado';
-    // }
+    if(!$mail->send()){
+    echo 'Message could not be send.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+    }else{
+    echo 'Correo enviado';
+    }
     }
 
      // //Envia Mail Cliente
@@ -87,23 +89,24 @@ function checkmailf1($email){
         $email = mysqli_real_escape_string($db,$_POST['email']);
         $mensaje = mysqli_real_escape_string($db,$_POST['mensaje']);
         $longnom = strlen ($nombres);
-        $query = "SELECT `email` FROM contactoscv WHERE `email` = '$email';";    
+        $query = "SELECT `email` FROM Curriculum WHERE `email` = '$email';";    
         $result = mysqli_query($db, $query); 
 
 if(checkmailf1($email)){
     if(mysqli_num_rows($result) == 0){
     if(!is_numeric($nombres))
         {
-            if($longnom > 20)
+            if($longnom > 4)
                 {
-                    $sql="INSERT INTO contactoscv(`id`, `nombres`,`apellidos`,`email`,`mensaje`) VALUES
+                    $sql="INSERT INTO Curriculum(`id`, `nombres`,`apellidos`,`email`,`mensaje`) VALUES
                     ('','$nombres','$apellidos','$email','$mensaje')";
                     $saveDB = mysqli_query($db, $sql);
                     if($saveDB){
+                        enviaMail($nombres,$apellidos,$email,$mensaje);
                         echo "<div id='warnings'>
                               <script>document.getElementById('CVform').reset(); </script> 
                               <script>swal({   title: '¡Gracias!',   text: 'Datos guardados con éxito',   type: 'success',   showCancelButton: false,   confirmButtonColor: '#62CB7E',   confirmButtonText: 'O.K',   closeOnConfirm: true }); </script></div>";
-                              enviaMail($nombres, $apellidos, $email, $mensaje);
+                              
                             }
                     else{
                         echo "<div id='warnings'>
