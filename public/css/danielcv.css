@@ -177,6 +177,7 @@ span.rotate{font-size: 35px;color: #00c0ff;}
 */
 
 #shape {stroke-width: 6px; fill: transparent; stroke: #009FFD; stroke-dasharray: 85 400; stroke-dashoffset: -220; transition: 1s all ease; }
+
 /* 
     Pushing the text up into the SVG. Without this the
     text would be below the div's.
@@ -192,7 +193,8 @@ make it thinner, then set it to again wrap around the entire parent element.
 
 .svg-wrapper:hover #shape {stroke-dasharray: 50 0; stroke-width: 3px; stroke-dashoffset: 0; stroke: #06D6A0; }
 
-.cvOthers{background-color: #222; }
+.cvOthers{background-color: #222;padding: 20px 0 40px !important; }
+.svg-wrapper {margin-left: 40px; }
 
 /*estilos servicios*/
 .friendServices{padding: 15px 0 30px;}
@@ -325,12 +327,12 @@ span {font-weight: bold; font-size: 19px;}
   .img-thumbnail {margin-bottom: 20px; }
   .service-item {height: 290px !important; margin-top: 35px;}
   .miContacto {background-size: contain; }
-  .centro{text-align: center;}
+  .centro{text-align: center !important;}
   .nav.navbar-nav {width: 100%; }
   .navbar-default .navbar-toggle {border-color: #00c0ff; background-color: #00c0ff !important; }
   .navbar-default .navbar-toggle .icon-bar {background-color: #ffffff; }
   .navbar-default .navbar-toggle:hover {border-color: #ffffff; background-color: #ffffff !important; }
-  .navbar-default .navbar-toggle .icon-bar:hover {background-color: #00c0ff !important; }
+  .navbar-default .navbar-toggle:hover .icon-bar {background-color: #00c0ff !important; }
   .uno{display: none;}
   .dos{display: initial;}
   .tres{margin-top: 10px !important;}
@@ -338,6 +340,7 @@ span {font-weight: bold; font-size: 19px;}
   .carousel-inner {height: 489px; }
   .carousel-caption {bottom: 240px; }
   .masInfo{display: initial;}
+  .svg-wrapper{margin-top: 20px; font-size: 17px;}
 }
 
 @media(max-width: 600px){
