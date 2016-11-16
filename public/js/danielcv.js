@@ -2,6 +2,8 @@ var filterizd = $('.filtr-container').filterizr({
    //options object
 });
 
+$('.tecnologias').parallax({imageSrc: '/img/tecnologias3.png'});
+
 // ===== Scroll to Top ==== 
 $(window).scroll(function() {
   if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
