@@ -50,10 +50,8 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#inicio" id="inicio">Inicio <span class="sr-only">(current)</span></a></li>
                 <li><a href="#perfil" id="perfil">Perfil</a></li>
-                <li><a href="#tecnology" id="tecnology">Tecnologias</a></li>
                 <li><a href="#portfolio" id="portafolios">Portafolios</a></li>
                 <li><a href="#actual" id="actualizacion">Actualización</a></li>
-                <li><a href="#complementos" id="complementos">Complementos</a></li>
                 <li><a href="#contactame" id="contactame">¡Contactame!</a></li>
             </li>
           </ul>
@@ -162,36 +160,61 @@
 <section class="tecnologias">
   <div class="container">
     <div class="row">
-    <h2 class="text-center profile">TECNOLOGIAS Y OTRAS HERRAMIENTAS</h2>
+    <h2 class="text-center profile blanco">TECNOLOGIAS Y OTRAS HERRAMIENTAS</h2>
     <hr class="style-three">
       <div class="col-sm-2">
-          <h4 class="titleItem">HTML5</h4>
+          <h4 class="titleItem blanco">HTML5</h4>
           <div class="test-circle">
           </div>
       </div>
       <div class="col-sm-2">
-          <h4 class="titleItem">CSS</h4>
+          <h4 class="titleItem blanco">CSS</h4>
           <div class="test-circle1">
           </div>
       </div>
       <div class="col-sm-2">
-          <h4 class="titleItem">PHP</h4>
+          <h4 class="titleItem blanco">PHP</h4>
           <div class="test-circle2">
           </div>
       </div>
       <div class="col-sm-2">
-          <h4 class="titleItem">JAVASCRIPT</h4>
+          <h4 class="titleItem blanco">JAVASCRIPT</h4>
           <div class="test-circle3">
           </div>
       </div>
       <div class="col-sm-2">
-          <h4 class="titleItem">ANGULARJS</h4>
+          <h4 class="titleItem blanco">MySQL</h4>
           <div class="test-circle4">
           </div>
       </div>
       <div class="col-sm-2">
-          <h4 class="titleItem">WORDPRESS</h4>
+          <h4 class="titleItem blanco">GIT</h4>
           <div class="test-circle5">
+          </div>
+      </div>
+      <div class="col-sm-2">
+          <h4 class="titleItem blanco">NODEJS</h4>
+          <div class="test-circle6">
+          </div>
+      </div>
+      <div class="col-sm-2">
+          <h4 class="titleItem blanco">BOOTSTRAP</h4>
+          <div class="test-circle7">
+          </div>
+      </div>
+      <div class="col-sm-2">
+          <h4 class="titleItem blanco">ANGULARJS</h4>
+          <div class="test-circle8">
+          </div>
+      </div>
+      <div class="col-sm-2">
+          <h4 class="titleItem blanco">WORDPRESS</h4>
+          <div class="test-circle9">
+          </div>
+      </div>
+      <div class="col-sm-2">
+          <h4 class="titleItem blanco">PHOTOSHOP</h4>
+          <div class="test-circle10">
           </div>
       </div>
     </div>
@@ -407,9 +430,9 @@
       </div>
         <div style="display:inline-block;width:100%;overflow-y:auto;">
           <ul class="timeline timeline-horizontal">
-              <p class="text-center Learning blanco">Desliza hacia la derecha para poder ver mas elementos:</p>
+              <p class="text-center Learning blanco desliza">Desliza hacia la derecha para poder ver mas elementos:</p>
               <center class="margenArrow">
-              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              <i class="fa fa-long-arrow-right flecha" aria-hidden="true"></i>
               </center>
             <li class="timeline-item">
               <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
@@ -486,6 +509,7 @@
 <!-- Timeline -->
 
 <!-- other CV forms begins-->
+<div id="otros"></div>
 <section class="cvOthers">
   <div class="container">
     <div class="row">
@@ -542,6 +566,7 @@
 <!-- other CV forms ends-->
 
 <!-- Services begins -->
+<div id="services"></div>
 <section id="service" class="pb-40 friendServices">
   <div class="container">
     <div class="row mt-40 mt-xs-20">
@@ -624,6 +649,7 @@
     </div>
   </div>
 </section>
+<!-- contact ends -->
 
 <div id="warnings"></div>
 
@@ -634,12 +660,14 @@
       <div class="col-sm-4 centro">
         <h3>Menu principal</h3>
         <ul>
-          <li><a href="#inicio" id="inicioDos"><i class="fa fa-gear fa-spin iconito"></i> Inicio</li></a>
+          <li><a href="" id="inicioDos"><i class="fa fa-gear fa-spin iconito"></i> Inicio</li></a>
           <li><a href="#perfil" id="perfilDos"><i class="fa fa-gear fa-spin iconito"></i> Perfil</li></a>
           <li><a href="#tecnology" id="tecnologyDos"><i class="fa fa-gear fa-spin iconito"></i> Tecnologias</li></a>
           <li><a href="#portfolio" id="portafoliosDos"><i class="fa fa-gear fa-spin iconito"></i> Portafolios</li></a>
           <li><a href="#actual" id="actualizacionDos"><i class="fa fa-gear fa-spin iconito"></i> Actualización</li></a>
           <li><a href="#complementos" id="complementosDos"><i class="fa fa-gear fa-spin iconito"></i> Complementos</li></a>
+          <li><a href="#otros" id="otrosCV"><i class="fa fa-gear fa-spin iconito"></i> Mis otros CV</li></a>
+          <li><a href="#serviciosDos" id="servicitos"><i class="fa fa-gear fa-spin iconito"></i> Otros Servicios</li></a>
           <li><a href="#contactame" id="contactameDos"><i class="fa fa-gear fa-spin iconito"></i> ¡Contactame!</li></a>
         </ul>
       </div>
@@ -664,7 +692,7 @@
 <!-- Footer ends -->
 
 <!-- Footer 2 begins -->
-<footer class=" footerB">
+<footer class="footerB">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -674,10 +702,13 @@
         <a href="https://github.com/POKEDANN"><i class="fa fa-github faDos"></i></a>
         <a href="https://bitbucket.org/POKEDANN/"><i class="fa fa-bitbucket-square faDos" aria-hidden="true"></i></a>
         <a href="https://www.facebook.com/DanielCruzCV/"><i class="fa fa-facebook-square faDos" aria-hidden="true"></i></a>
+        <a href="http://stackoverflow.com/users/5848819/pokedann"><i class="fa fa-stack-overflow faDos" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/daniel-cruz-cv"><i class="fa fa-linkedin-square faDos" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
 </footer>
+<!-- Footer 2 ends -->
 
 <!-- Return to Top -->
 <a id="return-to-top"><i class="glyphicon glyphicon-chevron-up"></i></a>
@@ -715,17 +746,11 @@
         $('#perfil').click(function() {
                 $('body').scrollTo('#myProfile', 800);
         });
-        $('#tecnology').click(function() {
-                $('body').scrollTo('#tecnologias', 800);
-        });
         $('#portafolios').click(function() {
                 $('body').scrollTo('#portfolio', 800);
         });
         $('#actualizacion').click(function() {
                 $('body').scrollTo('#actual', 800);
-        });
-        $('#complementos').click(function() {
-                $('body').scrollTo('#lineaTiempo', 800);
         });
         $('#contactame').click(function() {
                 $('body').scrollTo('#contacto', 800);
@@ -750,6 +775,12 @@
         });
         $('#complementosDos').click(function() {
                 $('body').scrollTo('#lineaTiempo', 800);
+        });
+        $('#otrosCV').click(function() {
+                $('body').scrollTo('#otros', 800);
+        });
+        $('#servicitos').click(function() {
+                $('body').scrollTo('#services', 800);
         });
         $('#contactameDos').click(function() {
                 $('body').scrollTo('#contacto', 800);

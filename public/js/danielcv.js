@@ -2,7 +2,8 @@ var filterizd = $('.filtr-container').filterizr({
    //options object
 });
 
-$('.tecnologias').parallax({imageSrc: '/img/tecnologias3.png'});
+$('.tecnologias').parallax({imageSrc: 'img/tecnologias4.png'});
+$('.miContacto').parallax({imageSrc: '/img/patterns_blue_white_black.jpg'});
 
 // ===== Scroll to Top ==== 
 $(window).scroll(function() {
@@ -55,13 +56,43 @@ $( document ).ready(function() {
             animationStep: 5,
             foregroundBorderWidth: 5,
             backgroundBorderWidth: 15,
-            percent: 20,
+            percent: 30,
         });
             $(".test-circle5").circliful({
             animationStep: 5,
             foregroundBorderWidth: 5,
             backgroundBorderWidth: 15,
+            percent: 30,
+        });
+            $(".test-circle6").circliful({
+            animationStep: 5,
+            foregroundBorderWidth: 5,
+            backgroundBorderWidth: 15,
+            percent: 20,
+        });
+            $(".test-circle7").circliful({
+            animationStep: 5,
+            foregroundBorderWidth: 5,
+            backgroundBorderWidth: 15,
+            percent: 70,
+        });
+            $(".test-circle8").circliful({
+            animationStep: 5,
+            foregroundBorderWidth: 5,
+            backgroundBorderWidth: 15,
+            percent: 30,
+        });
+            $(".test-circle9").circliful({
+            animationStep: 5,
+            foregroundBorderWidth: 5,
+            backgroundBorderWidth: 15,
             percent: 40,
+        });
+            $(".test-circle10").circliful({
+            animationStep: 5,
+            foregroundBorderWidth: 5,
+            backgroundBorderWidth: 15,
+            percent: 30,
         });
 
         });
