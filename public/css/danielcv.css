@@ -23,7 +23,7 @@ a:visited{color: #ffffff;text-decoration: none;}
 .itgamEgres{height: 100% !important; width: 100%;padding: 60px;}
 .itgamEsc{height: 100% !important; width: 100%;}
 .atTop{top: 100px; bottom: auto;}
-.itgamTitle{font-size: 3.5em;color: #5bc0de}
+.itgamTitle{font-size: 3.5em;color: #5bc0de;}
 .fa{font-size: 40px !important; color: white;margin-left: 15px;}
 .fa:hover{color: #00c0ff;}
 .contactBtn{background-color: #00c0ff; border: none; margin-top: 20px; padding: 5px 20px; font-size: 20px;margin-left: 15px;color: #ffffff;box-shadow: 0 5px #666;border-radius: 15px;}

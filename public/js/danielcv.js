@@ -19,7 +19,9 @@ $('#return-to-top').click(function() { // When arrow is clicked
   }, 500);
 });
 
-
+$('.portfolio').imagesLoaded().done( function( instance ) {
+  console.log('Imagenes cargadas');
+});
 
 $( document ).ready(function() {
 
