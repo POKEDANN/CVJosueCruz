@@ -20,6 +20,29 @@
     <link href="css/et-line.css" rel="stylesheet">
     <link rel="stylesheet" href="css/sweetalert.css">
 
+    <!-- estilos sidebar -->
+    <style>
+    @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+    .frasePrin {background-color: #333; }
+    #sidebar ul li:hover {background: rgba(0, 100, 133, 0.44) !important; }
+    .listCv {margin-left: -55px !important; }
+    .logoList:hover{color: #006485 !important; }
+    .logoList {font-size: 30px !important; margin-left: 0px; }
+    #sidebar {position: fixed !important; top: 90px; left: 0; max-width: 50px; min-width: 50px; margin: 25px; background: #00c0ff; transition: all 0.5s ease-in-out; z-index: 1; }
+    #sidebar:hover {max-width: 100%; }
+    #sidebar .logo {cursor: default; width: 100%; height: 50px; background: #FFF; font-size: 17pt; color: #00c0ff; font-weight: 800; line-height: 50px; text-align: center; }
+    #sidebar ul li {overflow: hidden; transition: all .3s ease; white-space: nowrap; }
+    #sidebar ul li a {height: 50px; border-top: 1px solid #006485; display: block; color: #FFF; line-height: 50px; text-decoration: none; margin-left: 15px; }
+    #sidebar ul li a i {width: 50px; height: 50px; box-shadow: 1px 0 #006485; font-size: 12pt; text-align: center; line-height: 50px; }
+    #sidebar ul li a span {padding: 0 15px; opacity: 0; transform: translateX(15px); transition: all 0.5s ease-in-out; }
+    #sidebar ul li:hover {background: rgba(255, 255, 255, 0.15); }
+    #sidebar:hover ul li a span {opacity: 1; transform: translateX(0); }
+    </style>
+    <!-- estilos sidebar -->
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -60,6 +83,24 @@
   </div><!-- /.container-fluid -->
 </nav>
 <!-- navbar ends -->
+
+<!-- sidebar begins -->
+<nav id='sidebar'>
+  <div class='logo'>CV</div>
+  <ul class="listCv">
+    <li>
+      <a class="frasePrin"><span class="invita">Te invito a checar mi CV construido con diferentes tecnologias:</span></a>
+    </li>
+    <li>
+      <a href='myCVs/CV-MDB/index.html'><i class="fa fa-desktop logoList"></i><span>Material Design</span></a>
+    </li>
+    <li>
+      <a href='#'><i class="fa fa-laptop logoList"></i><span>Angular</span></a>
+    </li>
+  </ul>
+</nav>
+<!-- sidebar ends -->
+
 
 <!-- carousel begins -->
 <div id="carousel-example-generic" class="carousel slide slide" data-ride="carousel">
