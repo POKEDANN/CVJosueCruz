@@ -30,11 +30,10 @@
 .card-wrapper .card-rotating.effect__click.flipped .back{-webkit-transform:rotateY(0);transform:rotateY(0)}
 
 /*estilos tecnologias*/
-.tecnologyMd{padding: 40px 0 20px !important;}
 .progress {
     height: 4px;
     margin-bottom: 32px;
-    background-color: #02569C;
+    background-color: #f5f5f5;
 }
 
 .progress-bar {
@@ -46,7 +45,7 @@
     text-align: center;
     font-size: 12px;
     color: #ffffff;
-    background-color: #0275d8;
+    background-color: #BDBDBD;
     -webkit-transition: width 0.6s ease;
     -o-transition: width 0.6s ease;
     transition: width 0.6s ease;
@@ -58,5 +57,44 @@
     right: 0;
     display: block;
     padding: 0 8px;
-    background-color: #0275d8;
+    background-color: #BDBDBD;
+}
+
+
+/* ----- ALTERNATE OPTIONS ----- */
+
+
+/* PRIMARY */
+
+.progress.primary {
+    background-color: #E8EAF6;
+}
+
+.primary .progress-bar,
+.primary .progress-bar span {
+    background-color: #3F51B5;
+}
+
+
+/* ACCENT */
+
+.progress.accent {
+    background-color: #FCE4EC;
+}
+
+.accent .progress-bar,
+.accent .progress-bar span {
+    background-color: #EC407A;
+}
+
+
+/* SUCCESS */
+
+.progress.success {
+    background-color: #E0F2F1;
+}
+
+.success .progress-bar,
+.success .progress-bar span {
+    background-color: #009688;
 }
