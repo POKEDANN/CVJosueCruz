@@ -1,5 +1,7 @@
 /*estilos generales*/
 .cuarenta{font-size: 30px;}
+.centro{text-align: center;}
+.treinta{margin-top: 30px;}
 
 /*estilos navbar*/
 .navbar .navbar-nav .nav-item {margin-left: 110px; }
@@ -30,71 +32,30 @@
 .card-wrapper .card-rotating.effect__click.flipped .back{-webkit-transform:rotateY(0);transform:rotateY(0)}
 
 /*estilos tecnologias*/
-.progress {
-    height: 4px;
-    margin-bottom: 32px;
-    background-color: #f5f5f5;
-}
+.tecnologyMd{padding: 40px 0 20px !important;background: #222; color: white;}
+.progress {height: 4px; margin-bottom: 32px; background-color: #FF9400; }
 
-.progress-bar {
-    position: relative;
-    float: left;
-    width: 0%;
-    height: 100%;
-    line-height: 20px;
-    text-align: center;
-    font-size: 12px;
-    color: #ffffff;
-    background-color: #BDBDBD;
-    -webkit-transition: width 0.6s ease;
-    -o-transition: width 0.6s ease;
-    transition: width 0.6s ease;
-}
+.progress-bar {position: relative; float: left; width: 0%; height: 100%; line-height: 20px; text-align: center;
+    font-size: 12px; color: #ffffff; background-color: #0275d8; -webkit-transition: width 0.6s ease; -o-transition: width 0.6s ease;
+    transition: width 0.6s ease; }
 
-.progress-bar span {
-    position: absolute;
-    top: -8px;
-    right: 0;
-    display: block;
-    padding: 0 8px;
-    background-color: #BDBDBD;
-}
+.progress-bar span {position: absolute; top: -8px; right: 0; display: block;
+    padding: 0 8px; background-color: #0275d8; }
+
+/*estilos portafolio*/
+.proyectos{padding: 40px;}
+.card-title{text-align: center !important;}
+a.btn.btn-primary.waves-effect.waves-light{
+    margin: 0 auto;
+    display: table;
+    white-space: normal!important;}
 
 
-/* ----- ALTERNATE OPTIONS ----- */
 
 
-/* PRIMARY */
-
-.progress.primary {
-    background-color: #E8EAF6;
-}
-
-.primary .progress-bar,
-.primary .progress-bar span {
-    background-color: #3F51B5;
-}
 
 
-/* ACCENT */
-
-.progress.accent {
-    background-color: #FCE4EC;
-}
-
-.accent .progress-bar,
-.accent .progress-bar span {
-    background-color: #EC407A;
-}
 
 
-/* SUCCESS */
 
-.progress.success {
-    background-color: #E0F2F1;
-}
 
-.success .progress-bar,
-.success .progress-bar span {
-    background-color: #009688;
-}
