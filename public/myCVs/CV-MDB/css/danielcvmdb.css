@@ -2,6 +2,7 @@
 .cuarenta{font-size: 30px;}
 .centro{text-align: center;}
 .treinta{margin-top: 30px;}
+.punta{border-radius: 0px;}
 
 /*estilos navbar*/
 .navbar .navbar-nav .nav-item {margin-left: 110px; }
@@ -50,8 +51,11 @@ a.btn.btn-primary.waves-effect.waves-light{
     display: table;
     white-space: normal!important;}
 
-
-
+/*estilos actualizacion*/
+figure.col-md-4 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
 
 
