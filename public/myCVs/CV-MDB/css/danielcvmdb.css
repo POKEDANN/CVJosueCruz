@@ -3,6 +3,7 @@
 .centro{text-align: center;}
 .treinta{margin-top: 30px;}
 .punta{border-radius: 0px;}
+.imgAltura{height: 245px !important; width: 100%;}
 
 /*estilos navbar*/
 .navbar .navbar-nav .nav-item {margin-left: 110px; }
@@ -33,7 +34,7 @@
 .card-wrapper .card-rotating.effect__click.flipped .back{-webkit-transform:rotateY(0);transform:rotateY(0)}
 
 /*estilos tecnologias*/
-.tecnologyMd{padding: 40px 0 20px !important;background: #222; color: white;}
+.tecnologyMd{padding: 40px 0 20px !important; color: white;}
 .progress {height: 4px; margin-bottom: 32px; background-color: #FF9400; }
 
 .progress-bar {position: relative; float: left; width: 0%; height: 100%; line-height: 20px; text-align: center;
@@ -52,11 +53,8 @@ a.btn.btn-primary.waves-effect.waves-light{
     white-space: normal!important;}
 
 /*estilos actualizacion*/
-figure.col-md-4 {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
+figure.col-md-4 {margin: 0 !important; padding: 0 !important; }
+.style-twos {border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(66, 133, 244), rgba(0, 0, 0, 0));
 
 
 
