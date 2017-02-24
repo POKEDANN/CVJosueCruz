@@ -2,7 +2,7 @@
 .cuarenta{font-size: 30px;}
 .centro{text-align: center;}
 .treinta{margin-top: 30px;}
-.punta{border-radius: 0px;}
+.punta{border-radius: 0px;border: 2px solid !important; border-color: #4285f4 !important;}
 .imgAltura{height: 245px !important; width: 100%;}
 
 /*estilos navbar*/
