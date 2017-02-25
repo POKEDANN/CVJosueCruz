@@ -54,10 +54,11 @@ a.btn.btn-primary.waves-effect.waves-light{
 
 /*estilos actualizacion*/
 figure.col-md-4 {margin: 0 !important; padding: 0 !important; }
-.style-twos {border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(66, 133, 244), rgba(0, 0, 0, 0));
-
-
-
+.style-twos {border: 0; height: 4px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(66, 133, 244), rgba(0, 0, 0, 0));}
+.actual{background-color: #ff9400;padding: 45px; color: #fff;}
+.reconom{margin-top: 30px;}
+.titles{font-weight: 500; font-size: 35px;}
+.porta{margin-bottom: 30px;color: #ff9400;}
 
 
 
