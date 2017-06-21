@@ -53,6 +53,7 @@ i.fa.fa-desktop.logoList{font-size: 30px !important; margin-left: 0px; }
 .fa{font-size: 40px !important; color: white;margin-left: 15px;}
 .fa:hover{color: #00c0ff;}
 .contactBtn{background-color: #00c0ff; border: none; margin-top: 20px; padding: 5px 20px; font-size: 20px;margin-left: 15px;color: #ffffff;box-shadow: 0 5px #666;border-radius: 15px;}
+.contactBtn:focus{outline: none;}
 .contactBtn:active{transform: translateY(4px);}
 .carousel-inner {margin-top: -10px; }
 .grad{width: 100%;}
@@ -306,7 +307,7 @@ footer {background: #006485;color: #ffffff;font-size: 17px; }
 ul{list-style: none;}
 .iconito{color: #5bc0de;font-size: 20px !important;margin-left:0px;margin-bottom: 9px; }
 .iconito:hover{color: #5bc0de}
-.iconi{font-size: 30px !important; margin-right: 5px;color: #5bc0de;margin-left:0px;margin-bottom: 9px;}
+.iconi{font-size: 25px !important; margin-right: 5px;color: #5bc0de;margin-left:0px;margin-bottom: 9px;}
 .iconi:hover{color: #5bc0de}
 .fa-envelope-o {margin-left: -5px; padding-right: 4px; }
 .RighTwo{float: right;}

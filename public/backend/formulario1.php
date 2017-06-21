@@ -30,8 +30,8 @@ require 'phpmailer/class.pop3.php';
     $mail->CharSet = 'UTF-8';
     $mail->Subject = 'Nuevo contacto a tu CV';
     $mail->Body = "Mensaje nuevo desde danielcruz.esy.es!!!<br>
-         Nombre: ".$nombres."<br>"
-         ."Apellido: " .$apellidos."<br>"
+         Nombre de la empresa: ".$nombres."<br>"
+         ."Nombre de la vacante: " .$apellidos."<br>"
          ."Correo: " .$email."<br>"
          ."Mensaje: " .$mensaje;
     $mail->Body = str_replace('\r\n','<br>',$mail->Body);
