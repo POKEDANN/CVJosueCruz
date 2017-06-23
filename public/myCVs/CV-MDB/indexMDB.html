@@ -54,7 +54,7 @@
                     <a class="nav-link">Actualizacion</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">¡Contactame!</a>
+                    <a class="nav-link">¡Contrátame!</a>
                 </li>
             </ul>
         </div>
@@ -138,7 +138,7 @@
                         <div class="card-block">
                             <h3>Daniel Cruz</h3>
                             <h4>Web developer Front End</h4>
-                            <button type="button" class="btn btn-outline-primary waves-effect"><a href="/docs/CVJosueCruz.pdf" download="/docs/CVJosueCruz.pdf">DESCARGAR PERFIL</a></button>
+                            <button type="button" class="btn btn-outline-primary waves-effect" data-toggle="modal" data-target="#centralModalSm"><a>VER CV</a></button>
                         </div>
                             <!--Triggering button-->
                             <a class="rotate-btn" data-card="card-1"><i class="fa fa-repeat"></i> Clic aqui para hacer girar la tarjeta</a>
@@ -176,6 +176,32 @@
     </div>
 </section>
 <!-- profile ends -->
+
+<!-- Modal para perfil -->
+<div class="modal fade" id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title w-100" id="myModalLabel">Daniel Cruz CV</h4>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <object type="application/pdf" data="/docs/CVJosueCruz.pdf" width="100%" height="430"></object>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!-- Modal para perfil -->
 
 <!-- tecnologias begins -->
 <section class="tecnologyMd parallax-window" data-parallax="scroll" data-image-src="img/tecCode.png">
@@ -550,6 +576,56 @@
                     <!--/.Card-->
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <!--Card-->
+                    <div class="card">
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://danielcruz.esy.es/img/blefa.png" class="img-fluid">
+                            <a href="#">
+                                <div class="mask waves-effect waves-light"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+                        <!--Card content-->
+                        <div class="card-block">
+                            <!--Title-->
+                            <h4 class="card-title">BLEFAROPLASTÍA</h4>
+                            <!--Button-->
+                            <a href="/myprojects/carpeta94_LpPlastic_blefaroplastia/index.html" class="btn btn-primary">Ver proyecto</a>
+                        </div>
+                        <!--/.Card content-->
+                    </div>
+                    <!--/.Card-->
+                </div>
+
+                <div class="col-sm-4">
+                    <!--Card-->
+                    <div class="card">
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://danielcruz.esy.es/img/pina.png" class="img-fluid">
+                            <a href="#">
+                                <div class="mask waves-effect waves-light"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+                        <!--Card content-->
+                        <div class="card-block">
+                            <!--Title-->
+                            <h4 class="card-title">PINA JARQUIN</h4>
+                            <!--Button-->
+                            <a href="/myprojects/carpeta109_LpPinaTarquin/index.html" class="btn btn-primary">Ver proyecto</a>
+                        </div>
+                        <!--/.Card content-->
+                    </div>
+                    <!--/.Card-->
+                </div>
+
+                
+            </div>
         </div>
     </div>
 </section>
@@ -646,6 +722,11 @@
                             </a>
                         </figure>
 
+                        <figure class="col-md-4">
+                            <a href="/img/cursoQuickStartToJSvol1.png" data-lightbox="pluralsight" data-title="Curso terminado de Quick Start To Javascript: Volume 1"><img src="/img/cursoQuickStartToJSvol1.png" class="img-fluid punta" />
+                            </a>
+                        </figure>
+
                         <!-- <figure class="col-md-4">
                             <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(9).jpg" data-size="1600x1067">
                                 <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(9).jpg" class="img-fluid punta" />
@@ -659,8 +740,12 @@
                 <div id="mdb-lightbox-ui"></div>
                     <div class="mdb-lightbox no-margin">
                         <figure class="col-md-4">
-                            <a href="/img/cursoLearnTheCommandLine.png" data-size="1600x1067" data-lightbox="codecademy" data-title="Curso terminado de Learn The Command Line">
-                                <img src="/img/cursoLearnTheCommandLine.png" class="img-fluid punta">
+                            <a href="/img/cursoLearnTheCommandLine.png" data-size="1600x1067" data-lightbox="codecademy" data-title="Curso terminado de Learn The Command Line"><img src="/img/cursoLearnTheCommandLine.png" class="img-fluid punta">
+                            </a>
+                        </figure>
+
+                        <figure class="col-md-4">
+                            <a href="/img/cursoPhp.png" data-size="1600x1067" data-lightbox="codecademy" data-title="Curso terminado de Php"><img src="/img/cursoPhp.png" class="img-fluid punta">
                             </a>
                         </figure>
 
