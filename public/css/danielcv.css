@@ -81,6 +81,7 @@ i.fa.fa-desktop.logoList{font-size: 30px !important; margin-left: 0px; }
 .myProfile{padding: 30px 0px;}
 .profileParag{font-size: 17px;}
 .descargarPerfil{margin: 0 auto;display: block;}
+.bot2{display: none;}
 
 /*ingles y escolaridad*/
 .inglesito{background-color: #02619a;padding: 30px 0;}
@@ -373,6 +374,8 @@ span {font-weight: bold; font-size: 19px;}
   .margenArrow{text-align: left;}
   .nav>li {margin-left: 70px !important; }
   .diez{margin-top: 10px;}
+  .bot2{display: block;}
+  .bot1{display: none;}
 }
 
 @media (max-width: 767px){
