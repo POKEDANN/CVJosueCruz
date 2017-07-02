@@ -1,7 +1,7 @@
 {
   "name": "cv",
   "version": "1.0.0",
-  "description": "Curriculum vitae",,
+  "description": "Curriculum vitae",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/POKEDANN/CVJosueCruz.git"
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/POKEDANN/CVJosueCruz/issues"
   },
-  "homepage": "https://github.com/POKEDANN/CVJosueCruz#readme"
+  "homepage": "https://github.com/POKEDANN/CVJosueCruz#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^3.0.1"
+  }
 }
