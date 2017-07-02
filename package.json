@@ -1,0 +1,20 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Curriculum vitae",,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/POKEDANN/CVJosueCruz.git"
+  },
+  "keywords": [
+    "cv",
+    "curriculum",
+    "vitae"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/POKEDANN/CVJosueCruz/issues"
+  },
+  "homepage": "https://github.com/POKEDANN/CVJosueCruz#readme"
+}
