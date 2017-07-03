@@ -13,7 +13,8 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'public/js/app.js': [
-                        'libraries/jquery-1.12.4.js'
+                        'libraries/jquery-1.12.4.js',
+                        'libraries/jquery.filterizr.js'
                     ]
                 }
             }
