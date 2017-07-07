@@ -20,6 +20,7 @@ module.exports = function(grunt) {
                         'src/js/danielcv.js',
                         'libraries/lightbox.js',
                         'libraries/jquery.simple-text-rotator.js',
+                        'libraries/typed.js',
                     ]
                 }
             }
