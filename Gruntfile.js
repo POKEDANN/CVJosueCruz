@@ -19,6 +19,7 @@ module.exports = function(grunt) {
                         'libraries/parallax.js-1.4.2/parallax.js',
                         'src/js/danielcv.js',
                         'libraries/lightbox.js',
+                        'libraries/jquery.simple-text-rotator.js',
                     ]
                 }
             }
