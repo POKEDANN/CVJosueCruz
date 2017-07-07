@@ -7,9 +7,12 @@ module.exports = function(grunt) {
         uglify: {
             dist: {
                 options: {
-                    preserveComments: '/^!/',
-                    compress: true,
-                    mangle : true,
+                    preserveComments: /^!/,
+                    output: { 
+                        comments: 'all'
+                    },
+                    compress: false,
+                    mangle : false
                 },
                 files: {
                     'public/js/app.js': [
@@ -17,10 +20,11 @@ module.exports = function(grunt) {
                         'libraries/jquery.filterizr.js',
                         'libraries/images-loaded-4.1.3.js',
                         'libraries/parallax.js-1.4.2/parallax.js',
-                        'src/js/danielcv.js',
                         'libraries/lightbox.js',
                         'libraries/jquery.simple-text-rotator.js',
                         'libraries/typed.js',
+                        'libraries/jquery.scrollTo.js',
+                        'src/js/danielcv.js'
                     ]
                 }
             }
