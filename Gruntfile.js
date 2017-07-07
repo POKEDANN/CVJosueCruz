@@ -7,25 +7,20 @@ module.exports = function(grunt) {
         uglify: {
             dist: {
                 options: {
-                    preserveComments: /^!/,
-                    output: { 
-                        comments: 'all'
-                    },
+                    preserveComments: '/^!+/',
                     compress: false,
                     mangle : false
                 },
                 files: {
-                    'public/js/app.js': [
-                        'libraries/jquery-1.12.4.js',
-                        'libraries/jquery.filterizr.js',
-                        'libraries/images-loaded-4.1.3.js',
-                        'libraries/parallax.js-1.4.2/parallax.js',
-                        'libraries/lightbox.js',
-                        'libraries/jquery.simple-text-rotator.js',
-                        'libraries/typed.js',
-                        'libraries/jquery.scrollTo.js',
-                        'src/js/danielcv.js'
-                    ]
+                    'tmp-js/jquery-1.12.4.min.js': 'libraries/jquery-1.12.4.js',
+                    'tmp-js/jquery.filterizr.min.js': 'libraries/jquery.filterizr.js',
+                    'tmp-js/images-loaded-4.1.3.min.js': 'libraries/images-loaded-4.1.3.js',
+                    'tmp-js/lightbox.min.js': 'libraries/lightbox.js',
+                    'tmp-js/jquery.simple-text-rotator.min.js': 'libraries/jquery.simple-text-rotator.js',
+                    'tmp-js/typed.min.js': 'libraries/typed.js',
+                    'tmp-js/jquery.scrollTo.min.js': 'libraries/jquery.scrollTo.js',
+                    'tmp-js/jquery.scrollTo.min.js': 'libraries/jquery.scrollTo.js',
+                    'tmp-js/danielcv.min.js': 'src/js/danielcv.js'
                 }
             }
         }        
