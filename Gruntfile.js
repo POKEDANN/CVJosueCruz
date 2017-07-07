@@ -17,7 +17,8 @@ module.exports = function(grunt) {
                         'libraries/jquery.filterizr.js',
                         'libraries/images-loaded-4.1.3.js',
                         'libraries/parallax.js-1.4.2/parallax.js',
-                        'src/js/danielcv.js'
+                        'src/js/danielcv.js',
+                        'libraries/lightbox.js',
                     ]
                 }
             }
