@@ -41,7 +41,8 @@ module.exports = function(grunt) {
                         'tmp-js/bootstrap.min.js',
                         'libraries/jquery.circliful.min.js',
                         'tmp-js/parallax.min.js',
-                        'tmp-js/danielcv.min.js',
+                        'libraries/sweetalert.min.js',
+                        'tmp-js/danielcv.min.js'
                     ]
                 }
             }
