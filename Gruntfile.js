@@ -20,6 +20,8 @@ module.exports = function(grunt) {
                     'tmp-js/jquery.simple-text-rotator.min.js': 'libraries/jquery.simple-text-rotator.js',
                     'tmp-js/typed.min.js': 'libraries/typed.js',
                     'tmp-js/jquery.scrollTo.min.js': 'libraries/jquery.scrollTo.js',
+                    'tmp-js/bootstrap.min.js': 'libraries/bootstrap.js',
+                    'tmp-js/parallax.min.js': 'libraries/parallax.js-1.4.2/parallax.js',
                     'tmp-js/danielcv.min.js': 'src/js/danielcv.js'
                 }
             }
@@ -36,7 +38,10 @@ module.exports = function(grunt) {
                         'tmp-js/jquery.simple-text-rotator.min.js',
                         'tmp-js/typed.min.js',
                         'tmp-js/jquery.scrollTo.min.js',
-                        'tmp-js/danielcv.min.js'
+                        'tmp-js/bootstrap.min.js',
+                        'libraries/jquery.circliful.min.js',
+                        'tmp-js/parallax.min.js',
+                        'tmp-js/danielcv.min.js',
                     ]
                 }
             }
